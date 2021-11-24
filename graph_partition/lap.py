@@ -1,6 +1,14 @@
 #laplacian matrix;
 import math 
 
+def adjaceny_mtrx(graph_matrix):
+    for i in graph_matrix:
+        for j in graph_matrix:
+            if(i==j):
+                A[i][j] = 0
+            else 
+                A[i][j] = -1 
+    
 def L(u,v):
     if(u == v):
         return diag(u)
@@ -32,5 +40,10 @@ def smoothness_grph(graph_struct):
         for u in graph_struct:
             if(u!=v):
                 path_sum+=wt(u,v)*sq(abs(fnc(u)-fnc(v)))
+ 
+def alpha_strong_convex(y,x,alpha):
 
+def beta_smooth_convex(x,y,beta):
 
+def lipschitz_convex(x,y,lip_coeff):
+    
