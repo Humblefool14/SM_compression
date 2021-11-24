@@ -1,0 +1,4 @@
+1. # can't concatenate a variable and a string literal
+Example: exo = 'Py' 
+exo 'thon' is wrong. 
+exo + 'thon' 
